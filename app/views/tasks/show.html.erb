@@ -1,0 +1,7 @@
+<h1>Task Details</h1>
+
+<h2>Title: <%= @task.title %></h2>
+<h2>Description: <%= @task.description %></h2>
+<h2>Completed: <%= @task.completed ? "Yes" : "No" %></h2>
+
+<%= link_to 'Back', root_path %>
